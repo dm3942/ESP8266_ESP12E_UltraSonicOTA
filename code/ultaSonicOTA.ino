@@ -121,8 +121,10 @@ void loop() {
     Serial.print("Distance: "); Serial.print(distance); Serial.print("  ");
     if(rawAvg != 0 && (rawAvg < 45 || rawAvg > 66)) { // these values came after a lot of testing. When something is really close to the sensor a high value above 65 is returned.
       bodyHTML = "OCCUPIED       ";
+      bodyHTML = bodyHTML + rawAvg;
     } else {
-      bodyHTML = "AVAILABLE      ";      
+      bodyHTML = "AVAILABLE      ";
+      bodyHTML = bodyHTML + rawAvg;      
     }
     responseHTML = headerHTML + bodyHTML + footerHTML;
     Serial.print(bodyHTML);    
