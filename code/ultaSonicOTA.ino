@@ -1,7 +1,10 @@
 /*
+* 
+* Modified by dm3942
+*
 * Ultrasonic Sensor HC-SR04 and Arduino Tutorial
 *
-* Crated by Dejan Nedelkovski,
+* Originally Crated by Dejan Nedelkovski,
 * www.HowToMechatronics.com
 *
 */
