@@ -1,4 +1,4 @@
-# ESP8266_ESP12E_UltraSonicOTA
+# ESP8266_ESP12E_UltraSonicOTA Arduino
 
 Source code developed using arduino IDE with ESP8266 board enabled.
 
